@@ -1,0 +1,211 @@
+:root {
+  --primary-color: #ec2424;
+  --secondary-color: #000000;
+  --text-color: #FFFFFF;
+}
+head {
+  font-family: 'Bebas Neue', cursive;
+}
+
+body {
+  
+  background: linear-gradient(to bottom, var(--primary-color), var(--secondary-color));
+  color: var(--text-color);
+  margin: 0;
+}
+
+/* Apply font to all sections and headers except footer and navigation list */
+body :not(nav) :not(footer) {
+  font-family: 'Bebas Neue', cursive;
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+header {
+  background: linear-gradient(to bottom, var(--primary-color), var(--secondary-color));
+  color: var(--text-color);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+}
+
+nav li {
+  margin: 0 2rem;
+}
+
+nav a {
+  font-size: 2.0rem;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  color: var(--text-color);
+}
+
+.hero {
+  background-color: #000000c4;
+  color: var(--text-color);
+  text-align: center;
+  padding: 1.5rem 0;
+  background-image: url("pictures/FishingBoyLakeMan.jpg");
+  background-blend-mode: multiply;
+  background-size: cover
+  
+  
+}
+
+
+.hero h1 {
+  font-family: 'Bebas Neue', cursive;
+  text-align: center;
+  font-size: 9rem;
+  margin-bottom: 1rem;
+ 
+  padding: 0.5rem;
+  display: inline-block;
+}
+
+.hero h2 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  border-radius: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: var(--text-color);
+  color: var(--primary-color);
+}
+
+.featured {
+  
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  padding: 1rem 0;
+  text-align: center;
+}
+.featured h2 {
+  
+  font-size: 5rem;
+  vertical-align:text-top
+  
+  
+}
+
+.tracks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+ 
+}
+
+.track {
+  width: 30%;
+  margin: 0 2.5%;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: all 0.3s ease;
+  background-color: rgb(116, 116, 116);
+}
+
+.track:hover {
+  transform: translateY(-0.5rem);
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+}
+
+.track img {
+  
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  
+}
+
+.track h3 {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+
+.concerts {
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  text-align: center;
+  padding: 5rem 0;
+  font-size:2rem;
+}
+.concerts h2{
+  font-size: 3rem;
+}
+
+.concerts ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.concerts li {
+  width: 30%;
+  margin: 30px;
+}
+
+/* Gradient background for the whole page */
+body {
+  background:  linear-gradient(to bottom);} 
+  
+.contact {
+  padding:100px;
+  justify-content:center;
+  align-items: center;
+}
+.contact h1{
+  font-size: 8rem;
+}
+
+
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+.social-icons li {
+  margin: 0 10px;
+}
+.social-icons a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 2em;
+}
+
+
+
+  
